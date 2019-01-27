@@ -39,6 +39,11 @@ p {
   color: #f7c08a;
 }
 
+.bg-dark {
+  background: #333;
+  color: #fff;
+}
+
 .btn {
   display: inline-block;
   background: #333;
@@ -52,6 +57,15 @@ p {
 .btn:hover {
   background: #f7c08a;
   color: #333;
+}
+
+.btn-light {
+  background: #fff;
+  color: #333;
+}
+
+.btn-light:hover {
+  background: #f7c08a;
 }
 
 /* NavBar Styling */
@@ -114,5 +128,29 @@ p {
   font-size: 20px;
   line-height: 1.7em;
   padding-bottom: 10px;
+}
+
+/* Info Section Styling */
+
+#info-section {
+  height: 400px;
+}
+
+#info-section .info-image {
+  float: left;
+  width: 50%;
+  background: url('/css/img/photo-1.jpg') no-repeat;
+  min-height: 100%;
+}
+
+#info-section .info-content {
+  float: right;
+  width: 50%;
+  text-align: center;
+  padding: 50px;
+}
+
+#info-section .info-content p {
+  padding-bottom: 20px;
 }
 
