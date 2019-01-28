@@ -68,6 +68,10 @@ p {
   background: #f7c08a;
 }
 
+.bg-primary {
+  background: #f7c08a;
+}
+
 /* NavBar Styling */
 
 #navbar {
@@ -152,5 +156,32 @@ p {
 
 #info-section .info-content p {
   padding-bottom: 20px;
+}
+
+/* Feature Section */
+
+#feature-section {
+  height: 400px;
+}
+
+#feature-section .location {
+  float: left;
+  width: 33%;
+  text-align: center;
+  border: 1px #333 solid;
+}
+
+#feature-section .meals {
+  float: left;
+  width: 33%;
+  text-align: center;
+  border: 1px #333 solid;
+}
+
+#feature-section .fitness {
+  float: left;
+  width: 33%;
+  text-align: center;
+  border: 1px #333 solid;
 }
 
