@@ -68,8 +68,18 @@ p {
   background: #f7c08a;
 }
 
+.bg-light {
+  background: #fff;
+  color: #333;
+}
+
 .bg-primary {
   background: #f7c08a;
+  color: #333;
+}
+
+.clr {
+  clear: both;
 }
 
 /* NavBar Styling */
@@ -155,45 +165,38 @@ p {
 }
 
 #info-section .info-content p {
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 /* Feature Section */
 
-#feature-section {
+/* #feature-section {
   height: 400px;
-}
+} */
 
 #feature-section .location {
   float: left;
-  width: 33%;
+  width: 33.3%;
   text-align: center;
-  padding-bottom: 20px;
+  padding: 50px;
 }
 
-#feature-section .meals {
+.box {
   float: left;
-  width: 33%;
+  width: 33.3%;
   text-align: center;
-  padding-bottom: 20px;
+  padding: 50px;
 }
 
-#feature-section .fitness {
-  float: left;
-  width: 33%;
-  text-align: center;
-  padding-bottom: 20px;
-}
-
-#feature-section .icons {
-  padding: 20px;
+.box i {
+  margin-bottom: 10px;
 }
 
 /* Footer Section */
 
-#footer {
+#main-footer {
+  text-align: center;
   background: #444;
   color: #fff;
-  text-align: center;
+  padding: 20px;
 }
-
