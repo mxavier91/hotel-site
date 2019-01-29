@@ -168,20 +168,32 @@ p {
   float: left;
   width: 33%;
   text-align: center;
-  border: 1px #333 solid;
+  padding-bottom: 20px;
 }
 
 #feature-section .meals {
   float: left;
   width: 33%;
   text-align: center;
-  border: 1px #333 solid;
+  padding-bottom: 20px;
 }
 
 #feature-section .fitness {
   float: left;
   width: 33%;
   text-align: center;
-  border: 1px #333 solid;
+  padding-bottom: 20px;
+}
+
+#feature-section .icons {
+  padding: 20px;
+}
+
+/* Footer Section */
+
+#footer {
+  background: #444;
+  color: #fff;
+  text-align: center;
 }
 
