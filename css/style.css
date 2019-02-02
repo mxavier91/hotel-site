@@ -104,7 +104,7 @@ p {
   color: #fff;
 }
 
-#navbar h1 {
+#navbar .logo {
   float: left;
   padding-top: 20px;
 }
@@ -179,10 +179,6 @@ p {
 }
 
 /* Feature Section */
-
-#feature-section {
-  height: 400px;
-}
 
 #feature-section .location {
   float: left;
